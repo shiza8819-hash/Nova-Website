@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nova creates modern digital experiences with innovative technology and creativity.">
+    <title>Nova | Explore the Future of Technology</title>
+    <meta name="description" content="Nova creates modern digital experiences with artificial intelligence, web development and cybersecurity.">
+
+<meta name="keywords" content="Nova, technology, web development, AI, cybersecurity">
+
+<meta name="author" content="Nova">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="loader" id="loader">
+    <h1>NOVA</h1>
+    <p>Loading your experience...</p>
+    <div class="loader-line"></div>
+</div>
+    <header class="navbar">
+        <a class="logo" href="#home" aria-label="Nova home">NOVA</a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Toggle navigation"
+            aria-controls="nav-links"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+        <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="theme-toggle" id="theme-toggle" type="button">Change Theme</button>
+            <a class="nav-button" href="#contact">Get Started</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="hero-label">Welcome to Nova</p>
+                <h1 id="main-title">Explore the Future of <span>Technology</span></h1>
+                <p class="hero-description" id="hero-description">
+                    We create modern digital experiences with innovative technology and creativity.
+                </p>
+                <div class="hero-actions">
+                    <button class="main-button" id="explore-btn" type="button">Explore More</button>
+                    <button class="secondary-button" id="change-text-btn" type="button">Change Text</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img
+                    src="https://www.udacity.com/_next/image?url=https%3A%2F%2Fvideo.udacity-data.com%2Ftopher%2F2024%2FOctober%2F670985eb_cd13232%2Fcd13232.jpg&w=750&q=80"
+                    alt="Futuristic technology illustration"
+                >
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <p class="section-label">ABOUT NOVA</p>
+                <h2>Ideas that move technology forward</h2>
+                <p>
+                    We bring creativity and technology together to build useful,
+                    thoughtful digital experiences for people and businesses.
+                </p>
+                <a class="main-button about-button" href="#contact">Work with us</a>
+            </div>
+           <div class="about-box">
+    <h3>Why Choose NOVA?</h3>
+    <p>We combine creativity and technology to build modern digital experiences.</p>
+
+    <div class="about-stat">
+        <h2>100%</h2>
+        <p>Creative Ideas</p>
+    </div>
+
+    <div class="about-stat">
+        <h2>24/7</h2>
+        <p>Digital Innovation</p>
+    </div>
+</div>
+        </section>
+
+        <section class="services" id="services">
+            <p class="section-label">WHAT WE DO</p>
+            <h2>Our Services</h2>
+            <p class="section-description">Discover what we can create for you.</p>
+
+            <div class="search-box">
+                <label class="visually-hidden" for="service-search">Search services</label>
+                <input
+                    type="search"
+                    id="service-search"
+                    placeholder="Search services..."
+                >
+            </div>
+
+            <div class="service-container">
+                <article class="service-card">
+                    <img
+                        src="https://images.openai.com/static-rsc-4/FYEo4iyL1I2_kIQHofD4XRiSoEe64OD-SV51Yf08TvYR-yCDh6-sq8gXr7zkCSQydhoOsfJPRpv4HLNsRaOCCXhli6Ue1_7fuM4mprXZxlO5DrZ-So_6gGXrvaX9cbHamYVBJUKeUNUgYskNhwt-7Gn27pp8IVv3B59YVArdswz-mZ8DmOwJpUGV3VYyOYKQ?purpose=fullsize"
+                        alt="Artificial intelligence concept"
+                        loading="lazy"
+                    >
+                    <h3>Artificial Intelligence</h3>
+                    <p>Smart solutions for the digital world.</p>
+                </article>
+                <article class="service-card">
+                    <img
+                        src="https://images.openai.com/static-rsc-4/3fXCkVup9krOAuunvevpQV1WG0YRIeUYOhB158WG7XX4RFxSVrtSu-EK_XW1JcB0rMdC_Gqta8icCvxmNk8sgJqgb8LG_GlRhteR3Azs9EZSpPhupSnVs0P9QJhx2OsXNsC5Y6ckMOK32jrCCctU6Urmh7qOLfbfYFjR1JjEpVEBMZDJkgXL51MZj4vMGvAF?purpose=fullsize"
+                        alt="Website development concept"
+                        loading="lazy"
+                    >
+                    <h3>Website Development</h3>
+                    <p>Modern and responsive websites.</p>
+                </article>
+                <article class="service-card">
+                    <img
+                        src="https://images.openai.com/static-rsc-4/J7_mkonrRaNOPRO4h9nbmMwP80CC6cb5DyaVwgbrKutVuAT1s0c2V_hDPsvi-eKQb0oRPYLrt8p9R51CZrI-Vt5csa0GN2rFDAN5uI__5jLaE4p-XXROXHt9um7Go_be8mYlr35UOTskWAvPREA3JG3WNYE5cdruNQlEFrR6CRc?purpose=inline"
+                        alt="Cybersecurity concept"
+                        loading="lazy"
+                    >
+                    <h3>Cybersecurity</h3>
+                    <p>Protecting digital information.</p>
+                </article>
+            </div>
+            <p class="search-empty" id="search-empty" hidden>No matching services found.</p>
+        </section>
+
+        <section class="projects" id="projects">
+            <p class="section-label">OUR PROJECTS</p>
+            <h2>Featured Projects</h2>
+            <p class="section-description">Explore some of our creative digital ideas.</p>
+            <div class="project-container">
+                <article class="project-card">
+                    <div class="project-visual">🌐</div>
+                    <div class="project-icon" aria-hidden="true">01</div>
+                    <h3>Website Design</h3>
+                    <p>Modern and creative websites built around great experiences.</p>
+                    <button class="project-button">View Project</button>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual">🤖</div>
+                    <div class="project-icon" aria-hidden="true">02</div>
+                    <h3>AI Solutions</h3>
+                    <p>Smart ideas powered by thoughtful technology.</p>
+                    <button class="project-button">View Project</button>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual">💡</div>
+                    <div class="project-icon" aria-hidden="true">03</div>
+                    <h3>Digital Innovation</h3>
+                    <p>Creative solutions for modern challenges.</p>
+                    <button class="project-button">View Project</button>
+                </article>
+            </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <p class="section-label">GET IN TOUCH</p>
+            <h2>Let's Talk About Technology</h2>
+            <p class="section-description">
+                Have a question or an idea? Send us a message.
+            </p>
+
+            <form class="contact-form" id="contact-form">
+                <label class="visually-hidden" for="user-name">Your name</label>
+                <input
+                    type="text"
+                    id="user-name"
+                    name="name"
+                    placeholder="Enter your name"
+                    autocomplete="name"
+                    required
+                >
+
+                <label class="visually-hidden" for="user-email">Your email</label>
+                <input
+                    type="email"
+                    id="user-email"
+                    name="email"
+                    placeholder="Enter your email"
+                    autocomplete="email"
+                    required
+                >
+
+                <label class="visually-hidden" for="user-message">Your message</label>
+                <textarea
+                    id="user-message"
+                    name="message"
+                    placeholder="Write your message"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button class="main-button" type="submit">Send Message</button>
+                <p id="form-result" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="footer-logo" href="#home">Nova</a>
+        <p>Exploring technology. Creating digital futures.</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nova. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="top-button" id="top-button" type="button" aria-label="Scroll to top">
+        ↑
+    </button>
+</body>
+</html>
